@@ -1,0 +1,170 @@
+.imgProgile{
+    border-radius: 25px;
+    border: 2px solid #FFF;
+    width: 50px;
+    height: 48px;
+  }
+  /* card */
+  .card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-top: 0%;
+    margin-bottom: 10px;
+  }
+  .card-header{
+    background-color: #31353D;
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 16px;
+    
+  }
+#numberofemp{
+  padding: 0px;
+}
+#piech{
+  width: 10%;
+}
+  .hidden{
+    display: none;
+  }
+  
+  /* Individual styles */
+  
+  /* Haruki */
+  
+ /* .canves2{
+   width: 1px;
+   height: 1px;
+ } */
+  /* .card-body{
+    background-image: url('index.jpg');
+    background-position: center center;
+    background-size: 1px;
+  } */
+
+
+  .avartar{
+    text-align: center;
+  }
+
+  .logogym{
+    width: 200px;
+    height: 187px;
+    border: 1px solid #FFF;
+    border-radius: 100px;
+    margin-bottom: 15px;
+  }
+
+
+  .card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+.card-header{
+    color:dodgerblue;
+    text-align: center;
+    border-bottom: 2px solid #FFF;
+}
+
+.card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #222222;
+    color: #FFF;
+}
+.form-signin{
+    margin-top: -85px;
+    margin-bottom: 0px
+}
+
+.modal-body{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #222222;
+    color: #FFF;
+}
+.model-img-top {
+    width: 100%;
+    border-top-right-radius: calc(.25rem - 1px);
+    border-top-left-radius: calc(.25rem - 1px);
+    margin-top: -69px;
+    margin-bottom: 19px;
+}
+
+.name{
+  border: 0;
+  width: 70%;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 20px;
+  outline: none;
+  color: wheat;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.name:focus {
+  width: 100%;
+  border: 4px dotted #2ecc71;
+  /* background-color: #2ecc71; */
+}
+
+
+#slct {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
+}
+/* Remove IE arrow */
+#slct::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  /* display: flex; */
+  width: 13em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+  text-align: right;
+  padding-right: 14px;
+}
+#slct {
+  flex: 1;
+  /* padding: 0.5em; */
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 1em;
+  background: #34495e;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #f39c12;
+}
+.test{
+  background: #2c3e50;
+  color: #fff;
+}
